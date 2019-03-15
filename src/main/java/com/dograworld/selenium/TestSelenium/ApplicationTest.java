@@ -22,7 +22,7 @@ public class ApplicationTest {
 		Thread.sleep(2000);
 	  //Assert.fail("Test failed");
 	 
-	  System.out.println("Login test execution");
+	  System.out.println("Login test execution success");
   }
 
 
