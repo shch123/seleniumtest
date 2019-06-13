@@ -48,10 +48,14 @@ public class ApplicationTest {
 	  catch(AssertionError e)
 	  {
 		  System.out.println("Test Failed");
+		  System.out.println("Test Failed");
 	  }
 		
 	 
 	  System.out.println("Login test execution success");
+
+	  System.out.println("Login test execution success");
+	  
   }
 
 
