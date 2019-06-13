@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dograworld.selenium.TestSelenium.ApplicationTest">
+      <class name="com.dograworld.selenium.Jason.ReadJason">
         <methods>
-          <include name="doLogin"/>
+          <include name="tearDown"/>
+          <include name="testSearch"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.dograworld.selenium.TestSelenium.ApplicationTest -->
+      </class> <!-- com.dograworld.selenium.Jason.ReadJason -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
